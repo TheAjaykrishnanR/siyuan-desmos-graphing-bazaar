@@ -1,6 +1,243 @@
 {
   "repos": [
     {
+      "installSize": 1787445,
+      "openIssues": 0,
+      "package": {
+        "author": "5kyfkr",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A dock Tomato Timer for SiYuan.",
+          "zh_CN": "思源底栏番茄钟：支持时间轴视图/任务提醒/日常事务记录/多端状态同步/移动端/数据库联动/块绑定/历史记录/任务管理器联动/移动端原生通知提醒"
+        },
+        "disabledInPublish": false,
+        "displayName": {
+          "default": "Dock Tomato",
+          "zh_CN": "底栏番茄钟"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://free.picui.cn/free/2026/02/25/699f05ad97ce4.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "tomato",
+          "timer",
+          "pomodoro",
+          "dock"
+        ],
+        "minAppVersion": "3.5.10",
+        "name": "siyuan-plugin-docktomato",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/5kyfkr/siyuan-plugin-docktomato",
+        "version": "1.9.5"
+      },
+      "size": 450111,
+      "stars": 7,
+      "updated": "2026-04-28T16:06:39Z",
+      "url": "5kyfkr/siyuan-plugin-docktomato@416e32f1b1b979cdd088696dc3ef46e1e5504733"
+    },
+    {
+      "installSize": 8751510,
+      "openIssues": 2,
+      "package": {
+        "author": "5kyfkr",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Aggregate tasks across documents with rule-based filters, grouping/sorting, configurable columns, and a quickbar editor for SiYuan.",
+          "zh_CN": "思源笔记任务管理器：汇总多文档任务，支持AI助手/白板/时间轴/日历/看板/清单/表格视图/四象限分组/悬浮条快速编辑/自定义加权排序。支持与底栏番茄钟联动、移动端原生日程通知"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Task Horizon",
+          "zh_CN": "任务管理器"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://free.picui.cn/free/2026/02/25/699f05ad97ce4.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "task",
+          "manager",
+          "filter"
+        ],
+        "minAppVersion": "3.6.4",
+        "name": "siyuan-plugin-task-horizon",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/5kyfkr/siyuan-plugin-task-horizon",
+        "version": "2.3.9"
+      },
+      "size": 1925256,
+      "stars": 16,
+      "updated": "2026-04-28T16:00:33Z",
+      "url": "5kyfkr/siyuan-plugin-task-horizon@86baa9de042760ad66af67578e09e6e6709f01ce"
+    },
+    {
+      "installSize": 3280277,
+      "openIssues": 12,
+      "package": {
+        "author": "mm-o",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "专业电子书阅读器，支持 PDF/EPUB/MOBI/TXT/在线小说等格式，智能标注笔记、书签管理、词典卡包、多书源搜索、多主题切换",
+          "en_US": "Professional eBook reader supporting PDF/EPUB/MOBI/TXT/online novels and more formats with smart annotations, bookmarks, dictionary cards, book sources, and themes",
+          "zh_CN": "专业电子书阅读器，支持 PDF/EPUB/MOBI/TXT/在线小说等格式，智能标注笔记、书签管理、词典卡包、多书源搜索、多主题切换"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "SiReader",
+          "en_US": "SiReader",
+          "zh_CN": "思阅"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://745201.xyz/pay.jpg"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "阅读",
+          "reading",
+          "电子书",
+          "ebook",
+          "pdf",
+          "epub",
+          "mobi",
+          "txt",
+          "azw3",
+          "fb2",
+          "cbz",
+          "sireader",
+          "思阅",
+          "标注",
+          "annotation",
+          "笔记",
+          "note",
+          "书签",
+          "bookmark",
+          "词典",
+          "dictionary",
+          "卡包",
+          "card deck",
+          "书源",
+          "book source",
+          "在线小说",
+          "online novel",
+          "主题",
+          "theme"
+        ],
+        "minAppVersion": "2.10.14",
+        "name": "siyuan-sireader",
+        "readme": {
+          "default": "README.md",
+          "en_US": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/mm-o/siyuan-sireader",
+        "version": "1.1.2"
+      },
+      "size": 1047967,
+      "stars": 23,
+      "updated": "2026-04-28T15:43:56Z",
+      "url": "mm-o/siyuan-sireader@fce7b6081e493eea13bcf00446271c84cf4cb723"
+    },
+    {
+      "installSize": 8446552,
+      "openIssues": 7,
+      "package": {
+        "author": "Achuan-2",
+        "backends": [
+          "windows",
+          "linux",
+          "darwin",
+          "docker",
+          "ios",
+          "android",
+          "harmony"
+        ],
+        "description": {
+          "default": "A plugin for SiYuan Note that implements task management features, developed to practice the Bullet Journal method. It supports document and block reminders, calendar view for scheduling, Pomodoro focus timer, and more.",
+          "zh_CN": "一款在思源笔记里实现任务管理功能的插件，为了践行「防弹笔记法」而开发。支持电脑端和移动端系统通知提醒任务执行、日历视图查看行事历、项目管理、四象限面板、番茄钟专注、习惯打卡等功能"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Task Note Management",
+          "zh_CN": "任务笔记管理"
+        },
+        "frontends": [
+          "desktop",
+          "mobile",
+          "browser-desktop",
+          "browser-mobile",
+          "desktop-window"
+        ],
+        "funding": {
+          "custom": [
+            "https://fastly.jsdelivr.net/gh/Achuan-2/PicBed/assets/20241128221208-2024-11-28.png"
+          ],
+          "github": "",
+          "openCollective": "",
+          "patreon": ""
+        },
+        "keywords": [
+          "reminder",
+          "time",
+          "calendar",
+          "notification",
+          "提醒",
+          "时间",
+          "日历",
+          "通知",
+          "番茄钟",
+          "四象限",
+          "任务管理",
+          "项目管理",
+          "习惯打卡"
+        ],
+        "minAppVersion": "3.6.4",
+        "name": "siyuan-plugin-task-note-management",
+        "readme": {
+          "default": "README_en_US.md",
+          "zh_CN": "README.md"
+        },
+        "url": "https://github.com/Achuan-2/siyuan-plugin-task-note-management",
+        "version": "6.8.5"
+      },
+      "size": 4503414,
+      "stars": 182,
+      "updated": "2026-04-28T15:41:52Z",
+      "url": "Achuan-2/siyuan-plugin-task-note-management@dbb87de10085a2a76ef3b3783f3eb86c68d6d032"
+    },
+    {
       "installSize": 839944,
       "openIssues": 5,
       "package": {
@@ -400,128 +637,6 @@
       "url": "MoonBottle/siyuan-plugin-bullet-journal@133a500e081d47e004920030ed1062b3abe2bda9"
     },
     {
-      "installSize": 8729707,
-      "openIssues": 2,
-      "package": {
-        "author": "5kyfkr",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Aggregate tasks across documents with rule-based filters, grouping/sorting, configurable columns, and a quickbar editor for SiYuan.",
-          "zh_CN": "思源笔记任务管理器：汇总多文档任务，支持AI助手/白板/时间轴/日历/看板/清单/表格视图/四象限分组/悬浮条快速编辑/自定义加权排序。支持与底栏番茄钟联动、移动端原生日程通知"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Task Horizon",
-          "zh_CN": "任务管理器"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://free.picui.cn/free/2026/02/25/699f05ad97ce4.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "task",
-          "manager",
-          "filter"
-        ],
-        "minAppVersion": "3.6.4",
-        "name": "siyuan-plugin-task-horizon",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/5kyfkr/siyuan-plugin-task-horizon",
-        "version": "2.3.8"
-      },
-      "size": 1921696,
-      "stars": 15,
-      "updated": "2026-04-28T02:34:25Z",
-      "url": "5kyfkr/siyuan-plugin-task-horizon@69b5f05e919db17177514050c18017263c9d0e39"
-    },
-    {
-      "installSize": 3270083,
-      "openIssues": 13,
-      "package": {
-        "author": "mm-o",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "专业电子书阅读器，支持 PDF/EPUB/MOBI/TXT/在线小说等格式，智能标注笔记、书签管理、词典卡包、多书源搜索、多主题切换",
-          "en_US": "Professional eBook reader supporting PDF/EPUB/MOBI/TXT/online novels and more formats with smart annotations, bookmarks, dictionary cards, book sources, and themes",
-          "zh_CN": "专业电子书阅读器，支持 PDF/EPUB/MOBI/TXT/在线小说等格式，智能标注笔记、书签管理、词典卡包、多书源搜索、多主题切换"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "SiReader",
-          "en_US": "SiReader",
-          "zh_CN": "思阅"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://745201.xyz/pay.jpg"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "阅读",
-          "reading",
-          "电子书",
-          "ebook",
-          "pdf",
-          "epub",
-          "mobi",
-          "txt",
-          "azw3",
-          "fb2",
-          "cbz",
-          "sireader",
-          "思阅",
-          "标注",
-          "annotation",
-          "笔记",
-          "note",
-          "书签",
-          "bookmark",
-          "词典",
-          "dictionary",
-          "卡包",
-          "card deck",
-          "书源",
-          "book source",
-          "在线小说",
-          "online novel",
-          "主题",
-          "theme"
-        ],
-        "minAppVersion": "2.10.14",
-        "name": "siyuan-sireader",
-        "readme": {
-          "default": "README.md",
-          "en_US": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/mm-o/siyuan-sireader",
-        "version": "1.1.0"
-      },
-      "size": 1044616,
-      "stars": 23,
-      "updated": "2026-04-27T16:14:33Z",
-      "url": "mm-o/siyuan-sireader@b79a3a6c2c800a89d474eb19ae7570cb11236e25"
-    },
-    {
       "installSize": 94278,
       "openIssues": 12,
       "package": {
@@ -582,73 +697,6 @@
       "stars": 61,
       "updated": "2026-04-27T13:19:21Z",
       "url": "zxkmm/siyuan_doctree_fake_subfolder@e50eb80cc90e977776533d1748e52a05f1c4f424"
-    },
-    {
-      "installSize": 8443896,
-      "openIssues": 7,
-      "package": {
-        "author": "Achuan-2",
-        "backends": [
-          "windows",
-          "linux",
-          "darwin",
-          "docker",
-          "ios",
-          "android",
-          "harmony"
-        ],
-        "description": {
-          "default": "A plugin for SiYuan Note that implements task management features, developed to practice the Bullet Journal method. It supports document and block reminders, calendar view for scheduling, Pomodoro focus timer, and more.",
-          "zh_CN": "一款在思源笔记里实现任务管理功能的插件，为了践行「防弹笔记法」而开发。支持电脑端和移动端系统通知提醒任务执行、日历视图查看行事历、项目管理、四象限面板、番茄钟专注、习惯打卡等功能"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Task Note Management",
-          "zh_CN": "任务笔记管理"
-        },
-        "frontends": [
-          "desktop",
-          "mobile",
-          "browser-desktop",
-          "browser-mobile",
-          "desktop-window"
-        ],
-        "funding": {
-          "custom": [
-            "https://fastly.jsdelivr.net/gh/Achuan-2/PicBed/assets/20241128221208-2024-11-28.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "reminder",
-          "time",
-          "calendar",
-          "notification",
-          "提醒",
-          "时间",
-          "日历",
-          "通知",
-          "番茄钟",
-          "四象限",
-          "任务管理",
-          "项目管理",
-          "习惯打卡"
-        ],
-        "minAppVersion": "3.6.4",
-        "name": "siyuan-plugin-task-note-management",
-        "readme": {
-          "default": "README_en_US.md",
-          "zh_CN": "README.md"
-        },
-        "url": "https://github.com/Achuan-2/siyuan-plugin-task-note-management",
-        "version": "6.8.4"
-      },
-      "size": 4502731,
-      "stars": 180,
-      "updated": "2026-04-27T12:18:00Z",
-      "url": "Achuan-2/siyuan-plugin-task-note-management@86df7e978e9e688a43a89bc341092ba76db7fbe2"
     },
     {
       "installSize": 309896,
@@ -1727,54 +1775,6 @@
       "stars": 0,
       "updated": "2026-04-16T13:42:45Z",
       "url": "bytemain/siyuan-plugin-settings-sync@3c10157c1e4ddba9e5292c1846eb6d0cb17807f2"
-    },
-    {
-      "installSize": 1757487,
-      "openIssues": 0,
-      "package": {
-        "author": "5kyfkr",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A dock Tomato Timer for SiYuan.",
-          "zh_CN": "思源底栏番茄钟：支持时间轴视图/任务提醒/日常事务记录/多端状态同步/移动端/数据库联动/块绑定/历史记录/任务管理器联动/移动端原生通知提醒"
-        },
-        "disabledInPublish": false,
-        "displayName": {
-          "default": "Dock Tomato",
-          "zh_CN": "底栏番茄钟"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://free.picui.cn/free/2026/02/25/699f05ad97ce4.png"
-          ],
-          "github": "",
-          "openCollective": "",
-          "patreon": ""
-        },
-        "keywords": [
-          "tomato",
-          "timer",
-          "pomodoro",
-          "dock"
-        ],
-        "minAppVersion": "3.5.10",
-        "name": "siyuan-plugin-docktomato",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/5kyfkr/siyuan-plugin-docktomato",
-        "version": "1.9.4"
-      },
-      "size": 445169,
-      "stars": 6,
-      "updated": "2026-04-14T17:52:44Z",
-      "url": "5kyfkr/siyuan-plugin-docktomato@9d4502e72c1d7ab5863a1e793f5bf20b46d3beb4"
     },
     {
       "installSize": 389207,
